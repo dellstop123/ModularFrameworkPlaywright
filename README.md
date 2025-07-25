@@ -84,6 +84,30 @@ npx playwright test -g '@regression'
 
 ---
 
+## 📊 Test Reports
+
+After running your tests, Playwright automatically generates a detailed HTML report.
+
+### Generate and View the Report
+
+1. **Run your tests:**
+   ```sh
+   npx playwright test
+   ```
+2. **Open the HTML report:**
+   ```sh
+   npx playwright show-report
+   ```
+   This will open an interactive report in your browser, showing test results, traces, and screenshots (if enabled).
+
+> The report is generated in the `playwright-report/` directory by default.
+
+#### Example Report Screenshot
+
+> ![Playwright HTML Report Example](https://playwright.dev/img/report-example.png)
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repo
